@@ -7,3 +7,9 @@
 
 import Foundation
 import RealmSwift
+
+class TodoItem: Object {
+    @objc dynamic var id = ""
+    @objc dynamic var title = ""
+    @objc dynamic var date = Date()
+}
