@@ -18,6 +18,9 @@ class AddView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        view.addGestureRecognizer(tapGesture)
+        
         
 
         // Do any additional setup after loading the view.
@@ -37,6 +40,9 @@ class AddView: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @objc func handleTap() {
+        view.endEditing(true) // 画面上のどこかをタップしたときにキーボードを閉じる
+    }
     
-
+    
 }
