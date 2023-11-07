@@ -37,9 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         let item = itemList[indexPath.row]
         cell?.textLabel?.text = item.title
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM/dd HH:mm"
-        cell?.detailTextLabel?.text = formatter.string(from: item.date)
+        cell?.detailTextLabel?.text = InfoHelper().dateToString(date:item.date)
         return cell!
     }
 

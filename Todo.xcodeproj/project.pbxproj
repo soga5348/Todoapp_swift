@@ -16,6 +16,7 @@
 		650584E62ADD62940044BE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650584E42ADD62940044BE5B /* LaunchScreen.storyboard */; };
 		652812A72AF252CB00CCD4C7 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652812A62AF252CB00CCD4C7 /* TodoItem.swift */; };
 		655C6E0E2AF3BFD8005FBE51 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655C6E0D2AF3BFD8005FBE51 /* AddView.swift */; };
+		655C6E102AF96097005FBE51 /* infoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655C6E0F2AF96097005FBE51 /* infoHelper.swift */; };
 		D3FE885E1605A74E608B0A70 /* Pods_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9074881CC08944C331672921 /* Pods_Todo.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		650584E72ADD62940044BE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652812A62AF252CB00CCD4C7 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		655C6E0D2AF3BFD8005FBE51 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		655C6E0F2AF96097005FBE51 /* infoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoHelper.swift; sourceTree = "<group>"; };
 		9074881CC08944C331672921 /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				650584DF2ADD62930044BE5B /* Todo.xcdatamodeld */,
 				652812A62AF252CB00CCD4C7 /* TodoItem.swift */,
 				655C6E0D2AF3BFD8005FBE51 /* AddView.swift */,
+				655C6E0F2AF96097005FBE51 /* infoHelper.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				652812A72AF252CB00CCD4C7 /* TodoItem.swift in Sources */,
+				655C6E102AF96097005FBE51 /* infoHelper.swift in Sources */,
 				650584DB2ADD62930044BE5B /* ViewController.swift in Sources */,
 				655C6E0E2AF3BFD8005FBE51 /* AddView.swift in Sources */,
 				650584D72ADD62930044BE5B /* AppDelegate.swift in Sources */,
