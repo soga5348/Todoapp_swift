@@ -37,6 +37,7 @@ class AddView: UIViewController {
         try! realm.write {
            realm.add(item)
         }
+        InfoHelper().setNotification(item: item)
         dismiss(animated: true, completion: nil)
     }
     

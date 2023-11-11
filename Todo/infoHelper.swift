@@ -35,6 +35,7 @@ class InfoHelper {
         let trigger = UNCalendarNotificationTrigger(dateMatching: targetDate,repeats: false)
         let content = UNMutableNotificationContent()
         content.title = item.title
+        content.body = "body"
         content.sound = .default
         let request = UNNotificationRequest(identifier: item.id, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
